@@ -2,11 +2,8 @@
     background-color: navy;
     justify-content: space-evenly;
     align-items: center;
-    width: 50rem;
+    /* width: 100rem; */
     margin: 1rem 0;
-    --bs-Navigation-link-color: #F3BC77(--bs-link-color);
-    --bs-Navigation-link-hover-color: var(--bs-link-hover-color);
-    --bs-Navigation-link-disabled-color: #6c757d;
     display: flex;
     flex-wrap: wrap;
    }
@@ -23,3 +20,10 @@ button{
     border-radius: 16px;
   }
 
+div{
+    background-color: navy;
+    justify-content: center;
+}
+/* ul{
+margin-left: 40px;
+} */
