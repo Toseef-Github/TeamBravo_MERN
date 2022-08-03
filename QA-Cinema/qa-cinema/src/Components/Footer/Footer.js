@@ -21,7 +21,7 @@ function Footer() {
                     <td>Twitter</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>Places to Go</td>
                     <td>Screens</td>
                     <td>Instagram</td>
                 </tr>
@@ -33,7 +33,7 @@ function Footer() {
                 <tr>
                     <td></td>
                     <td>Opening Times</td>
-                    <td>Instagram</td>
+                    <td></td>
                 </tr>
             </table>
             </section>
