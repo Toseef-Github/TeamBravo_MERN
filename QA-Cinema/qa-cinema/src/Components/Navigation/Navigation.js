@@ -2,10 +2,10 @@ import './Navigation.css';
 const Navigation = () => {
 
     return (
-             <div className="text-center">
+             <div>
                 <header>
                   <nav className="Navigation">
-                    <ul className="p-2 gt-4">
+                    <ul>
                       {/* <Link to="/"> */}
                         <button type="button">
                           Home
