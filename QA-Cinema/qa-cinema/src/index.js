@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from './Components/Footer/Footer';
+import Navigation from './Components/Navigation/Navigation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navigation />
     <App />
     <Footer />
   </React.StrictMode>
