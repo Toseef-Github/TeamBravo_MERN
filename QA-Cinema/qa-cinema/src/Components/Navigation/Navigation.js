@@ -1,32 +1,23 @@
 import './Navigation.css';
+import Nav from 'react-bootstrap/Nav';
 const Navigation = () => {
-
     return (
-             <div>
-                <header>
-                  <nav className="Navigation">
-                    <ul>
-                      {/* <Link to="/"> */}
-                        <button type="button">
-                          Home
-                        </button>
-                      {/* </Link> */}
-          
-                      {/* <Link to="/About"> */}
-                        <button type="button">
-                          About
-                        </button>
-                      {/* </Link> */}
-                      {/* <Link to="/Searchbar"> */}
-                        <button type="button">
-                          Search
-                        </button>
-                      {/* </Link> */}
-                      </ul>
-        </nav>
-      </header>
-    </div>
-  );
-};
+      <Nav justify variant="tabs" defaultActiveKey="/home">
+        <Nav.Item>
+          <Nav.Link href="/home">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/home">About</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href= "/home">Movies</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/home">Something </Nav.Link>
+        </Nav.Item>
+      </Nav>
+    );
+  }
+
 
 export default Navigation;
