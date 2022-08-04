@@ -1,5 +1,25 @@
+
+:root {
+  --color-primary: #002626;
+  --color-secondary: #F0F7EE;
+  --duration: 1s;
+  --nav-duration: calc(var(--duration) / 4);
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --space: 1rem;
+  --font-primary: 'Helvetica', sans-serif;
+  --font-heading: 'Merriweather', serif;
+  --font-size: 1.145rem;
+  --line-height: 1.5;
+}
+
+
+
+
+
+
+
 .Navigation {
-    background-color: navy;
+    background-color: #000000;
     justify-content: space-evenly;
     align-items: center;
     /* width: 100rem; */
@@ -9,7 +29,7 @@
    }
     
 button{
-    background-color: rgb(255, 31, 31);
+    background-color: #900020;
     border: none;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
@@ -21,7 +41,7 @@ button{
   }
 
 div{
-    background-color: navy;
+    background-color: rgb(0, 0, 0);
     justify-content: center;
 }
 /* ul{
