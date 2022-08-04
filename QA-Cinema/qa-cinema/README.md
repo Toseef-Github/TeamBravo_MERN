@@ -2,6 +2,8 @@
 // npm i express
 // npm i react-router-dom
 // npm i -g nodemon (This is so we can create a script in the package.json file to run as nodemon and not require us to restart the app when making changes) by running: npm run dev
+// npm i jsonwebtoken
+// npm i mongoose cors 
 
 
 # Getting Started with Create React App
