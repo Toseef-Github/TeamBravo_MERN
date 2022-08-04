@@ -4,3 +4,21 @@
     position:relative;
     top:-5px;
 }
+body{
+    background-image: url("WallpaperBackdrop.jpg");
+    background-color: #1d1716;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 0px 1px;
+
+}
+/* h1 {
+    margin-bottom: calc(var(--space) * 3);
+    font-family: var(--font-heading);
+    font-size: calc(var(--font-size) + 6vmin);
+    line-height: calc(var(--line-height) / 1.25);
+  }
+   */
