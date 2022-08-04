@@ -2,7 +2,7 @@
     border: 5px solid navy(50 44% 45%);
     display: flex;
     justify-content: center;
-    background-color: navy;
+    background-color: #212529;
 }
 
 #footertable {

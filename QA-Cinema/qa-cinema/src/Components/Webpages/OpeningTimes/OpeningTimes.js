@@ -2,57 +2,67 @@ import './OpeningTimes.css';
 import Table from 'react-bootstrap/Table';
 
 function OpeningTimes() {
-  return (
-    <Table striped bordered hover size="sm">
-      <thead>
-        <tr>
-          <th>Day</th>
-          <th>Open</th>
-          <th>Close</th>
-          <th>Last Film start</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Monday</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>Tuesday</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </Table>
-  );
+    return (
+        <>
+            <div>
+                <h1 id="OpenTimesh1">Opening Times</h1>
+                <Table striped bordered hover variant="dark">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Open</th>
+                            <th>Close</th>
+                            <th>Last Film start</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>09:00</td>
+                            <td>00:00</td>
+                            <td>22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>11:00</td>
+                            <td>00:00</td>
+                            <td>23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>11:00</td>
+                            <td>00:00</td>
+                            <td>23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>11:00</td>
+                            <td>00:00</td>
+                            <td>23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>09:00</td>
+                            <td>01:00</td>
+                            <td>23:30</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>09:00</td>
+                            <td>01:00</td>
+                            <td>00:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>09:00</td>
+                            <td>01:00</td>
+                            <td>00:00</td>
+                        </tr>
+                    </tbody>
+                </Table>
+            </div>
+        </>
+    );
 }
 
 // function OpeningTimes() {

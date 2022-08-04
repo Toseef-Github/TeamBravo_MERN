@@ -8,7 +8,7 @@
     flex-wrap: wrap;
    }
     
-button{
+/* button{
     background-color: rgb(255, 31, 31);
     border: none;
     color: rgb(255, 255, 255);
@@ -18,12 +18,12 @@ button{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
-  }
+  } */
 
-div{
+/* div{
     background-color: rgb(103, 103, 145);
     justify-content: center;
-}
+} */
 /* ul{
 margin-left: 40px;
 } */
