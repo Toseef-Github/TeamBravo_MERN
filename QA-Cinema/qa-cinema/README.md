@@ -1,3 +1,9 @@
+// Things Devin installed
+// npm i express
+// npm i react-router-dom
+// npm i -g nodemon (This is so we can create a script in the package.json file to run as nodemon and not require us to restart the app when making changes) by running: npm run dev
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
