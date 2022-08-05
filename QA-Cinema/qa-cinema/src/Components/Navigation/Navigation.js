@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function NavScrollExample() {
+function NavScroll() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container fluid>
@@ -48,4 +48,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavScroll;
