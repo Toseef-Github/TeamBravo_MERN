@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 function About() {
   return (
 <div className="row  text-white">
+<h1 id="AboutTitle">About Us</h1>
     <div>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
