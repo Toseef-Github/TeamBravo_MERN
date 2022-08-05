@@ -7,7 +7,7 @@ function About() {
   return (
 <div className="row  text-white">
 <h1 id="AboutTitle">About Us</h1>
-    <div>
+    <div class="col-sm-12">
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
@@ -21,7 +21,7 @@ function About() {
     </Card>
     </div>
 
-    <div>
+    <div class="col-sm-12">
   <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
@@ -35,7 +35,7 @@ function About() {
     </Card>
     </div>
 
-    <div>
+    <div class="col-sm-12">
   <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
@@ -49,7 +49,7 @@ function About() {
     </Card>
     </div>
 
-    <div>
+    <div class="col-sm-12">
   <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
