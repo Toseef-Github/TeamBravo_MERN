@@ -4,22 +4,19 @@
     position:relative;
     top:-5px;
 }
-body{
-    background-image: url("3Ux01N.jpg");
-    background-color: #1d1716;
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 0px 1px;
-    background-repeat: no-repeat;
 
-}
-/* h1 {
-    margin-bottom: calc(var(--space) * 3);
-    font-family: var(--font-heading);
-    font-size: calc(var(--font-size) + 6vmin);
-    line-height: calc(var(--line-height) / 1.25);
-  }
-   */
+
+   /* #image1{
+    background-image: url("./3Ux01N.jpg");
+   } */
+
+   Carousel.Item {
+  
+
+            font-family: helvetica neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333;
+            background-color: #fff;
+
+    }
