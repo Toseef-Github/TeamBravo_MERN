@@ -27,8 +27,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="https://www.pingpongdimsum.com/food/">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.pingpongdimsum.com/food/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
@@ -46,8 +45,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.honestburgers.co.uk/locations/st-katharine-docks/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
@@ -65,8 +63,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.emiliaspasta.com/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                     </CardGroup>
@@ -92,8 +89,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.slugandlettuce.co.uk/towerbridge">Website</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
@@ -111,8 +107,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.kilikyasgastro.co.uk/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
@@ -130,8 +125,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.guoman.com/the-tower/restaurants-and-bars">Website</Card.Link>
                             </Card.Body>
                         </Card>
                     </CardGroup>
@@ -157,8 +151,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.hrp.org.uk/tower-of-london/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
@@ -176,8 +169,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://www.towerbridge.org.uk/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
@@ -185,7 +177,7 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Dog & Cone</Card.Title>
                                 <Card.Text>
-                                   Best Ice-cream in the area!
+                                    Best Ice-cream in the area!
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
@@ -194,8 +186,7 @@ function PlacesToGo() {
                                 <ListGroup.Item>Walking time: </ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="https://theuselessweb.com/">Website</Card.Link>
                             </Card.Body>
                         </Card>
                     </CardGroup>
