@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import CardGroup from 'react-bootstrap/CardGroup';
 
+
 function PlacesToGo() {
     return (
         <>
@@ -12,9 +13,28 @@ function PlacesToGo() {
                 <div class="col-sm-12">
                     <CardGroup>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipPingPong.png')} />
                             <Card.Body>
-                                <Card.Title>Tesco</Card.Title>
+                                <Card.Title>Ping Pong</Card.Title>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.
+                                </Card.Text>
+                            </Card.Body>
+                            <ListGroup className="list-group-flush">
+                                <ListGroup.Item>Rating: </ListGroup.Item>
+                                <ListGroup.Item>Price: </ListGroup.Item>
+                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                            </ListGroup>
+                            <Card.Body>
+                                <Card.Link href="https://www.pingpongdimsum.com/food/">Card Link</Card.Link>
+                                <Card.Link href="#">Another Link</Card.Link>
+                            </Card.Body>
+                        </Card>
+                        <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
+                            <Card.Img variant="top" src={require('./Images/MapSnipHonestBurger.png')} />
+                            <Card.Body>
+                                <Card.Title>Honest Burger</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
@@ -31,28 +51,9 @@ function PlacesToGo() {
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipEmilias.png')} />
                             <Card.Body>
-                                <Card.Title>Tower of London</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                            </Card.Body>
-                            <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
-                            </ListGroup>
-                            <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
-                        <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-                            <Card.Body>
-                                <Card.Title>Tower of London</Card.Title>
+                                <Card.Title>Emilia's Crafted Pasta</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
@@ -77,7 +78,7 @@ function PlacesToGo() {
                 <div class="col-sm-12">
                     <CardGroup>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipSlug&Lettuce.png')} />
                             <Card.Body>
                                 <Card.Title>Slug & Lettuce</Card.Title>
                                 <Card.Text>
@@ -96,9 +97,9 @@ function PlacesToGo() {
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipKilikyas.png')} />
                             <Card.Body>
-                                <Card.Title>Tower of London</Card.Title>
+                                <Card.Title>Kilikya's</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
@@ -115,9 +116,9 @@ function PlacesToGo() {
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipBeachBar.png')} />
                             <Card.Body>
-                                <Card.Title>Tower of London</Card.Title>
+                                <Card.Title>Beach Bar</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
@@ -142,7 +143,7 @@ function PlacesToGo() {
                 <div class="col-sm-12">
                     <CardGroup>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipTowerOfLondon.png')} />
                             <Card.Body>
                                 <Card.Title>Tower of London</Card.Title>
                                 <Card.Text>
@@ -161,7 +162,7 @@ function PlacesToGo() {
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipTowerBridge.png')} />
                             <Card.Body>
                                 <Card.Title>Tower Bridge</Card.Title>
                                 <Card.Text>
@@ -180,12 +181,11 @@ function PlacesToGo() {
                             </Card.Body>
                         </Card>
                         <Card bg='dark' key='dark' border='dark' text='white' style={{ width: '18rem' }} id="PlacesToGoCard">
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={require('./Images/MapSnipDog&Cone.png')} />
                             <Card.Body>
-                                <Card.Title>Tower of London</Card.Title>
+                                <Card.Title>Dog & Cone</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                   Best Ice-cream in the area!
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
