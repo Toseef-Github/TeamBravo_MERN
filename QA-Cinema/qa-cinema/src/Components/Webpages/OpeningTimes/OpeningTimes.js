@@ -63,7 +63,7 @@ function OpeningTimes() {
                 </Table>
             </div>
             <div>
-                <Accordion>
+                <Accordion variant="dark">
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Times my vary - More Info</Accordion.Header>
                         <Accordion.Body>
