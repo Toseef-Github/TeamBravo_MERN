@@ -7,7 +7,7 @@ function PlacesToGo() {
     return (
         <>
             <h1 id="PlacesToGoh1">Places To Go</h1>
-            <div>
+            <div id="PlacesToGoDiv">
                 <h2 id="PlacesToGoh2">Restaurants</h2>
                 <div class="col-sm-12">
                     <CardGroup>
@@ -71,7 +71,8 @@ function PlacesToGo() {
                     </CardGroup>
                 </div>
             </div>
-            <div>
+            <br />
+            <div id="PlacesToGoDiv">
                 <h2 id="PlacesToGoh2">Bars</h2>
                 <div class="col-sm-12">
                     <CardGroup>
@@ -135,7 +136,8 @@ function PlacesToGo() {
                     </CardGroup>
                 </div>
             </div>
-            <div>
+            <br />
+            <div id="PlacesToGoDiv">
                 <h2 id="PlacesToGoh2">Experiences</h2>
                 <div class="col-sm-12">
                     <CardGroup>
