@@ -5,18 +5,25 @@
     top:-5px;
 }
 
-
    /* #image1{
     background-image: url("./3Ux01N.jpg");
    } */
-
-   Carousel.Item {
-  
-
-            font-family: helvetica neue,Helvetica,Arial,sans-serif;
-            font-size: 14px;
-            line-height: 1.42857143;
-            color: #333;
-            background-color: #fff;
-
-    }
+   .carousel{
+    left: -9999px;  /*important */
+    right: -9999px;  /*important */
+    margin: 0 auto;  /*important */
+    max-width: 80%;  /*important */
+    min-width: 80%;
+    position: absolute;
+ }
+ #h5 {
+    font-family: Machine,Helvetica,Arial,sans-serif;
+    color:aliceblue;
+    font-size: 54px;
+    letter-spacing: 0;
+    line-height: 46px;
+    font-weight: 400;
+    width: 60%;
+    margin-bottom: 40px;
+    cursor: default;
+ }
