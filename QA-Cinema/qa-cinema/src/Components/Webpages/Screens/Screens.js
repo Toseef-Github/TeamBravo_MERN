@@ -10,9 +10,9 @@ function Screens() {
                 <h1 id="Screensh1">Screens</h1>
             </div>
             <br />
-            <h2>Standard Screen</h2>
+            <h2 id="Screensh2">Standard Screen</h2>
             <Card>
-                <Card.Img variant="top" src="./StandardScreen.png" />
+                <Card.Img variant="top" src={standardScreen} />
                 <Card.Body>
                     <Card.Text>
                         Standard Screen - Seating up to (some number) of people with (some number) of standard seats and (some number) of premium seats.
@@ -20,7 +20,7 @@ function Screens() {
                 </Card.Body>
             </Card>
             <br />
-            <h2>Deluxe Screen</h2>
+            <h2 id="Screensh2">Deluxe Screen</h2>
             <Card>
             <Card.Img variant="top" src={deluxeScreen} />
                 <Card.Body>
