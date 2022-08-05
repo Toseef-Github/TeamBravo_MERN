@@ -68,7 +68,7 @@ function OpeningTimes() {
                         <Accordion.Header>Times my vary - More Info</Accordion.Header>
                         <Accordion.Body>
                             Bank holiday times will mean that the Cinema will open 1 hour later and close 1 hour earlier. This means that the last viewing will also be 1 hour earlier.
-                            <br></br>
+                            <br />
                             Times are also subject to change if there are staff shortages.
                         </Accordion.Body>
                     </Accordion.Item>
