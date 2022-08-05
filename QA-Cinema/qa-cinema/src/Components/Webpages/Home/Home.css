@@ -5,15 +5,13 @@
     top:-5px;
 }
 
-   /* #image1{
-    background-image: url("./3Ux01N.jpg");
-   } */
-   .carousel{
+  .carousel{
     left: -9999px;  /*important */
     right: -9999px;  /*important */
     margin: 0 auto;  /*important */
     max-width: 80%;  /*important */
     min-width: 80%;
+    
     position: absolute;
  }
  #h5 {
