@@ -1,5 +1,6 @@
 import './OpeningTimes.css';
 import Table from 'react-bootstrap/Table';
+import Accordion from 'react-bootstrap/Accordion';
 
 function OpeningTimes() {
     return (
@@ -60,6 +61,18 @@ function OpeningTimes() {
                         </tr>
                     </tbody>
                 </Table>
+            </div>
+            <div>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>Times my vary - More Info</Accordion.Header>
+                        <Accordion.Body>
+                            Bank holiday times will mean that the Cinema will open 1 hour later and close 1 hour earlier. This means that the last viewing will also be 1 hour earlier.
+                            <br></br>
+                            Times are also subject to change if there are staff shortages.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
             </div>
         </>
     );
