@@ -7,7 +7,7 @@ function ContactUs() {
     <label for="Input1">Full Name</label>
     <input type="text" class="form-control" id="InputName" placeholder="Enter Name Here"></input>
   </div>
-  <div class="form-group">
+  <div class="form-group text-white">
     <label for="InputEmail">Email address</label>
     <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com"></input>
   </div>
