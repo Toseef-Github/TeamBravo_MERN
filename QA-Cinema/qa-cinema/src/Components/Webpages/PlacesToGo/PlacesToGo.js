@@ -22,7 +22,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 8</ListGroup.Item>
-                                <ListGroup.Item>Price: $$</ListGroup.Item>
+                                <ListGroup.Item>Price: ££</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 2 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -39,7 +39,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 7.5</ListGroup.Item>
-                                <ListGroup.Item>Price: $$</ListGroup.Item>
+                                <ListGroup.Item>Price: ££</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 3 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -57,7 +57,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 7.5</ListGroup.Item>
-                                <ListGroup.Item>Price: $$$</ListGroup.Item>
+                                <ListGroup.Item>Price: £££</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 5 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -82,7 +82,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 6.5</ListGroup.Item>
-                                <ListGroup.Item>Price: $$$</ListGroup.Item>
+                                <ListGroup.Item>Price: £££</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 2 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -99,7 +99,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 8</ListGroup.Item>
-                                <ListGroup.Item>Price: $$</ListGroup.Item>
+                                <ListGroup.Item>Price: ££</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 5 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -116,7 +116,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 7</ListGroup.Item>
-                                <ListGroup.Item>Price: $$$</ListGroup.Item>
+                                <ListGroup.Item>Price: £££</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 4 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -141,7 +141,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 10</ListGroup.Item>
-                                <ListGroup.Item>Price: $</ListGroup.Item>
+                                <ListGroup.Item>Price: £</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 5 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -158,7 +158,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 9</ListGroup.Item>
-                                <ListGroup.Item>Price: $</ListGroup.Item>
+                                <ListGroup.Item>Price: £</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 10 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -175,7 +175,7 @@ function PlacesToGo() {
                             </Card.Body>
                             <ListGroup className="list-group-flush">
                                 <ListGroup.Item>Rating: 7</ListGroup.Item>
-                                <ListGroup.Item>Price: $</ListGroup.Item>
+                                <ListGroup.Item>Price: £</ListGroup.Item>
                                 <ListGroup.Item>Walking time: 2 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
