@@ -35,6 +35,7 @@ function ListingsGallery() {
         <Col sm></Col>
       </Row>
     </Container>
+    <br />
     <Container>
       <Row>
         <Col sm={8}>
