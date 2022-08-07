@@ -19,6 +19,10 @@ import Payment from './Components/Webpages/Payment/Payment';
 import PlacesToGo from './Components/Webpages/PlacesToGo/PlacesToGo';
 import Screens from './Components/Webpages/Screens/Screens';
 import Seating from './Components/Webpages/Seating/Seating';
+import BulletTrain from './Components/Webpages/Films/BulletTrain';
+import Minions from './Components/Webpages/Films/Minions';
+import Thor from './Components/Webpages/Films/Thor';
+import Superpets from './Components/Webpages/Films/Superpets';
 
 
 function App() {
@@ -42,6 +46,10 @@ function App() {
           <Route path='/PlacesToGo' element={<PlacesToGo />}></Route>
           <Route path='/Screens' element={<Screens />}></Route>
           <Route path='/Seating' element={<Seating />}></Route>
+          <Route path='/BulletTrain' element={<BulletTrain />}></Route>
+          <Route path='/Minions' element={<Minions />}></Route>
+          <Route path='/Thor' element={<Thor />}></Route>
+          <Route path='/Superpets' element={<Superpets />}></Route>
         </Routes>
       </div>
     </Router>
