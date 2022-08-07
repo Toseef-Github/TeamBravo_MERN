@@ -17,14 +17,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Ping Pong</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Handmade Dim Sum & Cocktails
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 8</ListGroup.Item>
+                                <ListGroup.Item>Price: $$</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 2 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.pingpongdimsum.com/food/">Website</Card.Link>
@@ -35,14 +34,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Honest Burger</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Local burgers in collaboration with nearby food heroes
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 7.5</ListGroup.Item>
+                                <ListGroup.Item>Price: $$</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 3 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.honestburgers.co.uk/locations/st-katharine-docks/">Website</Card.Link>
@@ -58,9 +56,9 @@ function PlacesToGo() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 7.5</ListGroup.Item>
+                                <ListGroup.Item>Price: $$$</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 5 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.emiliaspasta.com/">Website</Card.Link>
@@ -79,14 +77,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Slug & Lettuce</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    All about getting together over heavenly cocktail trees
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 6.5</ListGroup.Item>
+                                <ListGroup.Item>Price: $$$</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 2 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.slugandlettuce.co.uk/towerbridge">Website</Card.Link>
@@ -97,14 +94,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Kilikya's</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Fairy-tale ambience and the superb service offered by our friendly team, accompanied by the magnificent view of St.Katharine Docks
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 8</ListGroup.Item>
+                                <ListGroup.Item>Price: $$</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 5 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.kilikyasgastro.co.uk/">Website</Card.Link>
@@ -115,14 +111,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Beach Bar</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Outside bar right opposite Tower Bridge
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 7</ListGroup.Item>
+                                <ListGroup.Item>Price: $$$</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 4 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.guoman.com/the-tower/restaurants-and-bars">Website</Card.Link>
@@ -141,14 +136,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Tower of London</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Explore London's iconic castle and World Heritage Site. Get up close to the Crown Jewels.
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 10</ListGroup.Item>
+                                <ListGroup.Item>Price: $</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 5 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.hrp.org.uk/tower-of-london/">Website</Card.Link>
@@ -159,14 +153,13 @@ function PlacesToGo() {
                             <Card.Body>
                                 <Card.Title>Tower Bridge</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    High-level Walkways, take in stunning panoramic views and experience the thrill of seeing London life.
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 9</ListGroup.Item>
+                                <ListGroup.Item>Price: $</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 10 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://www.towerbridge.org.uk/">Website</Card.Link>
@@ -181,9 +174,9 @@ function PlacesToGo() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Rating: </ListGroup.Item>
-                                <ListGroup.Item>Price: </ListGroup.Item>
-                                <ListGroup.Item>Walking time: </ListGroup.Item>
+                                <ListGroup.Item>Rating: 7</ListGroup.Item>
+                                <ListGroup.Item>Price: $</ListGroup.Item>
+                                <ListGroup.Item>Walking time: 2 minutes</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://theuselessweb.com/">Website</Card.Link>
