@@ -4,4 +4,8 @@
 }
 #ClassificationsTabDiv {
     color: wheat;
+    background-color:rgb(60, 70, 80);
+}
+.card {
+    background-color: rgb(60, 70, 80);
 }

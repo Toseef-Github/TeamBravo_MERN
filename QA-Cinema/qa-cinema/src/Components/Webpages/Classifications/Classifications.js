@@ -3,16 +3,20 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
+import Card from 'react-bootstrap/Card';
+
 
 function Classifications() {
     return (
         <>
-            <div>
+            <div align="center">
                 <h1 id="Classificationsh1">Classifications</h1>
             </div>
+            
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 <Row>
                     <Col sm={3}>
+                        <Card align="center" style={{ width: '20rem' }}>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
                                 <Nav.Link eventKey="First">(U) Suitable for all</Nav.Link>
@@ -36,6 +40,7 @@ function Classifications() {
                                 <Nav.Link eventKey="Seventh">(R18) Adults for licensed premises</Nav.Link>
                             </Nav.Item>
                         </Nav>
+                        </Card>
                     </Col>
                     <Col sm={9}>
                         <Tab.Content>
