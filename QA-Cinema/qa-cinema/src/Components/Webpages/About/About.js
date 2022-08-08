@@ -5,10 +5,10 @@ import Card from 'react-bootstrap/Card';
 
 function About() {
   return (
-<div className="row  text-white">
+<div className="row  text-white" align="center">
 <h1 id="AboutTitle">About Us</h1>
     <div class="col-sm-12">
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '45rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Devin</Card.Title>
@@ -22,7 +22,7 @@ function About() {
     </div>
 
     <div class="col-sm-12">
-  <Card style={{ width: '18rem' }}>
+  <Card style={{ width: '45rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
     <Card.Title>Hodan</Card.Title>
@@ -36,7 +36,7 @@ function About() {
     </div>
 
     <div class="col-sm-12">
-  <Card style={{ width: '18rem' }}>
+  <Card style={{ width: '45rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
     <Card.Title>Toseef</Card.Title>
@@ -50,7 +50,7 @@ function About() {
     </div>
 
     <div class="col-sm-12">
-  <Card style={{ width: '18rem' }}>
+  <Card style={{ width: '45rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
     <Card.Title>Waseem</Card.Title>
