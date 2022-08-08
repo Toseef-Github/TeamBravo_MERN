@@ -41,7 +41,7 @@ function Classifications() {
                         <Tab.Content>
                             <Tab.Pane eventKey="First">
                                 <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
@@ -84,7 +84,7 @@ function Classifications() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Second">
                                                                <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
@@ -127,7 +127,7 @@ function Classifications() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Third">
                                                                <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
@@ -170,7 +170,7 @@ function Classifications() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Fourth">
                                                                <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
@@ -213,7 +213,7 @@ function Classifications() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Fifth">
                                                                <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
@@ -256,7 +256,7 @@ function Classifications() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Sixth">
                                                                <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
@@ -299,7 +299,7 @@ function Classifications() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="Seventh">
                                                                <div id="ClassificationsTabDiv">
-                                    <h2 id="Classificationsh2">Overview</h2>
+                                    <h2>Overview</h2>
                                     <p>
                                         A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. <br />
                                         U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror. If a work is particularly suitable for pre-school children, this will be indicated in the Ratings Info.
