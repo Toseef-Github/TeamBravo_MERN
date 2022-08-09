@@ -1,10 +1,35 @@
-#welcomeTitle {
-    text-align: center;
-    color: wheat;
-    position:relative;
-    top:-5px;
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier Prime", monospace;
+ 
 }
 
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 500;
+  color: #fff;
+  border-right: 4px solid #fff;
+  animation: cursor 1s infinite step-end, typing 25s infinite steps(30);
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes cursor{
+   
+  0%, 100%{border-color: transparent;}
+  50%{border-color: #fff;}
+}
+
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden*/
+  30%{ width: 26ch;} /*The enitre header will be typed out*/
+  80%{ width: 26ch;} /*Text stays visible*/
+  90%{ width: 0ch;} /*Text is deleted*/
+  100%{ width: 0ch;} /*Text stays hidden*/
+}
   .carousel{
     left: -9999px;  /*important */
     right: -9999px;  /*important */
@@ -14,7 +39,7 @@
     
     position: absolute;
  }
- #h5 {
+ /* #h5 {
     font-family: Machine,Helvetica,Arial,sans-serif;
     color:aliceblue;
     font-size: 54px;
@@ -24,4 +49,4 @@
     width: 60%;
     margin-bottom: 40px;
     cursor: default;
- }
+ } */
