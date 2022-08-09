@@ -7,14 +7,14 @@ function Screens() {
     return (
         <>
             <div>
-                <h1 id="Screensh1">Screens</h1>
+                <h1 id="Screensh1">Screens:</h1>
             </div>
             <br />
             <h2 id="Screensh2">Standard Screen</h2>
             <Card style={{ width: '75%' }} id="ScreensCardMargin">
                 <Card.Img variant="top" src={standardScreen} />
                 <Card.Body>
-                    <Card.Text>
+                    <Card.Text style={{ color: '#fff' }}>
                         Standard Screen - Seating up to (some number) of people with (some number) of standard seats and (some number) of premium seats.
                     </Card.Text>
                 </Card.Body>
@@ -24,7 +24,7 @@ function Screens() {
             <Card style={{ width: '75%' }} id="ScreensCardMargin">
                 <Card.Img variant="top" src={deluxeScreen} />
                 <Card.Body>
-                    <Card.Text>
+                    <Card.Text style={{ color: '#fff' }} >
                         Deluxe Screen - Seating up to (some number) of people with (some number) of standard seats and (some number) of premium seats.
                     </Card.Text>
                 </Card.Body>
