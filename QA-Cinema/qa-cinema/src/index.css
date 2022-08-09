@@ -15,7 +15,11 @@ body {
   background-attachment: fixed;
   background-position: 0px 1px;
   background-repeat: no-repeat;
-
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+  
 }
 
 
