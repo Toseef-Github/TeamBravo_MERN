@@ -2,11 +2,16 @@ import './ListingsGallery.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 function ListingsGallery() {
     return (
         <>
+         <Card align="center" style={{ width: '100rem' }}>
+                <Card.Body>
+        
             <body>
+              
             <h1 id="ListingsGalleryh1">Listings Gallery</h1>
             <Container>
       <Row>
@@ -119,7 +124,7 @@ function ListingsGallery() {
         <Col sm></Col>
       </Row>
     </Container>
-            </body>
+            </body></Card.Body></Card>
         </>
     );
 }
