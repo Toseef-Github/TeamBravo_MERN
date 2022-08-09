@@ -9,7 +9,16 @@ function NavScroll() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+          <Navbar.Brand href="./Home">
+            <img
+              src="./QA Cinemas-logos.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt=""
+            />
+          </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -20,19 +29,16 @@ function NavScroll() {
             <Nav.Link href="./Home">Home</Nav.Link>
             <Nav.Link href="./About">About</Nav.Link>
             <Nav.Link href="./ListingsGallery">Listings</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
+            <NavDropdown title="More" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="./Location">Location</NavDropdown.Item>
+              <NavDropdown.Item href="./ContactUs">
+                Contact Us
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
+              <NavDropdown.Item href="./About">
+                About QA Cinema
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
