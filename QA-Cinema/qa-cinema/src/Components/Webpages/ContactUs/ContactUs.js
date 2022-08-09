@@ -2,7 +2,8 @@ import './ContactUs.css';
 
 function ContactUs() {
     return (
-<form action="https://formsubmit.co/toseef.mehdi@hotmail.co.uk" method="POST">
+<div id="form-div">
+  <form class="form" id="form1" action="https://formsubmit.co/toseef.mehdi@hotmail.co.uk" method="POST">
   <div class="form-group text-white">
     <label for="Input1">Full Name</label>
     <input type="text" class="form-control" id="InputName" placeholder="Enter Name Here"></input>
@@ -27,6 +28,7 @@ function ContactUs() {
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+</div>
     );
 }
 
