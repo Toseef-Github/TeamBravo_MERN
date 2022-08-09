@@ -1,0 +1,11 @@
+create backend-server folder
+create movie-app folder
+
+go into the backend-server folder
+npm init -y
+npm install express body-parser cors mongoose nodemon
+//Body parser is responsible to get the body off of network requests
+//nodemon restarts the server when it sees changes
+//cors provides a connect/express middleware that can be used to enable CORS with various options
+//mongoose does MongoDB object modeling for node.js
+create index.js file in folder
