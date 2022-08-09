@@ -9,3 +9,19 @@ npm install express body-parser cors mongoose nodemon
 //cors provides a connect/express middleware that can be used to enable CORS with various options
 //mongoose does MongoDB object modeling for node.js
 create index.js file in folder
+
+open command prompt and run mongo (type 'mongo' and hit enter)
+create the database (use 'database name') // use qacinema
+
+create db folder in the backend-server folder
+create index.js file in the db folder
+add mongoose connection info in index.js
+
+update main backend/index.js
+
+Creating the schema
+create a models folder and create a 'name-model.js' file
+
+Create routes for CRUD
+create folder for routes controller
+c
