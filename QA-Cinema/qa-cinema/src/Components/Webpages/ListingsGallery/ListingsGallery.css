@@ -1,11 +1,10 @@
-.Card {
+body {
     background-color:rgb(63, 72, 82);
-    
   }
 
 #ListingsGalleryh1 {
     text-align: center;
-    color: wheat;
+    color: white;
 }
 
 #ListingsGalleryh2 {

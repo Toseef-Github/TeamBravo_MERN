@@ -7,7 +7,7 @@ function OpeningTimes() {
         <>
             <body>
                 <div>
-                    <h1 id="OpenTimesh1">Opening Times</h1>
+                    <h1 id="OpenTimesh1">Opening Times:</h1>
                     <Table striped bordered hover variant="dark">
                         <thead>
                             <tr>

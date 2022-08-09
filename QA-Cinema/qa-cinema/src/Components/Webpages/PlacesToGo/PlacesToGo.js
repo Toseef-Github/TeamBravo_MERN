@@ -7,7 +7,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function PlacesToGo() {
     return (
         <>
-            <h1 id="PlacesToGoh1">Places To Go</h1>
+            <h1 id="PlacesToGoh1">Places To Go:</h1>
             <div id="PlacesToGoDiv">
                 <h2 id="PlacesToGoh2">Restaurants</h2>
                 <div class="col-sm-12">

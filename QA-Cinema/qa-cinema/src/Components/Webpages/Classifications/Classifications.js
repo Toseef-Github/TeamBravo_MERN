@@ -10,7 +10,7 @@ function Classifications() {
     return (
         <>
             <div align="center">
-                <h1 id="Classificationsh1">Classifications</h1>
+                <h1 id="Classificationsh1">Classifications:</h1>
             </div>
             
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">

@@ -9,7 +9,7 @@ function Location() {
                 <Card.Body>
                 <div>
                     
-                    <h1 id="Locationh1">Location</h1>
+                    <h1 id="Locationh1">Location:</h1>
                     <br />
                     <h2 id="Locationh2">Address</h2>
                     <p id="Locationp">3rd Floor, International House,</p>
