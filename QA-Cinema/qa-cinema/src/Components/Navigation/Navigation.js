@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useState } from 'react'
 
 function NavScroll() {
   return (
@@ -29,11 +30,10 @@ function NavScroll() {
             <Nav.Link href="./Home">Home</Nav.Link>
             <Nav.Link href="./About">About</Nav.Link>
             <Nav.Link href="./ListingsGallery">Listings</Nav.Link>
+            <Nav.Link href="./Booking">Booking</Nav.Link>
             <NavDropdown title="More" id="navbarScrollingDropdown">
               <NavDropdown.Item href="./Location">Location</NavDropdown.Item>
-              <NavDropdown.Item href="./ContactUs">
-                Contact Us
-              </NavDropdown.Item>
+              <NavDropdown.Item href="./ContactUs"> Contact Us</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="./About">
                 About QA Cinema
