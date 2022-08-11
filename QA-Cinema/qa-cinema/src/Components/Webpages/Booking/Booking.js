@@ -2,6 +2,7 @@ import "./Booking.css";
 import React, { useState } from "react";
 import clsx from "clsx";
 import DtPicker from 'react-datetime-picker';
+import Navbar from "react-bootstrap/Navbar";
 
 const movies = [
   {
@@ -158,6 +159,21 @@ function Cinema({ movie, selectedSeats, onSelectedSeatsChange }) {
           })}
         </div>
       </div>
-    </body>
+      
+    
+    <nav>
+    <Navbar.Brand href="./Payment">
+      <ul>
+        <li>
+          Book NOW
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </li>
+      </ul>
+    </Navbar.Brand>
+  </nav>
+  </body>
   );
 }
