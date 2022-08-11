@@ -19,7 +19,7 @@ function NavScroll() {
       <Container fluid>
         <Navbar.Brand href="./Home">
           <img
-            src={require("./QA Cinemas-logos.png")}
+            src={require("./QA Cinemas-logos_white.png")}
             width="30"
             height="30"
             className="d-inline-block align-top"

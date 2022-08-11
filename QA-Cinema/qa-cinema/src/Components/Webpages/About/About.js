@@ -46,28 +46,35 @@ function About() {
 
       <div class="col-sm-12">
         <Card style={{ width: "45rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img
+            variant="top"
+            src="https://pbs.twimg.com/profile_images/1539368959467732994/WzKtFqJp_400x400.jpg"
+          />
           <Card.Body>
             <Card.Title>Toseef</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">GitHub</Button>
+            <Button variant="primary" href="https://github.com/Toseef-Github">
+              GitHub
+            </Button>
           </Card.Body>
         </Card>
       </div>
 
       <div class="col-sm-12">
         <Card style={{ width: "45rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="" />
           <Card.Body>
             <Card.Title>Waseem</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              When I wrote this code, only God and I understood what I did. Now
+              only God knows.
             </Card.Text>
-            <Button variant="primary">GitHub</Button>
+            <Button variant="primary" href="https://github.com/waseem-khan-qa">
+              GitHub
+            </Button>
           </Card.Body>
         </Card>
       </div>
