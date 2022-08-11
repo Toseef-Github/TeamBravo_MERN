@@ -27,10 +27,7 @@ function About() {
 
       <div class="col-sm-12">
         <Card style={{ width: "45rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://c4.wallpaperflare.com/wallpaper/456/996/977/funny-coding-humor-technics-wallpaper-preview.jpg"
-          />
+          <Card.Img variant="top" src={require("./HodanB.PNG")} />
           <Card.Body>
             <Card.Title>Hodan</Card.Title>
             <Card.Text>
@@ -53,8 +50,8 @@ function About() {
           <Card.Body>
             <Card.Title>Toseef</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Software and cathedrals are much the same — first we build them,
+              then we pray.
             </Card.Text>
             <Button variant="primary" href="https://github.com/Toseef-Github">
               GitHub
@@ -65,7 +62,10 @@ function About() {
 
       <div class="col-sm-12">
         <Card style={{ width: "45rem" }}>
-          <Card.Img variant="top" src="" />
+          <Card.Img
+            variant="top"
+            src="https://c4.wallpaperflare.com/wallpaper/456/996/977/funny-coding-humor-technics-wallpaper-preview.jpg"
+          />
           <Card.Body>
             <Card.Title>Waseem</Card.Title>
             <Card.Text>
