@@ -165,7 +165,7 @@ function Cinema({ movie, selectedSeats, onSelectedSeatsChange }) {
     <Navbar.Brand href="./Payment">
       <ul>
         <li>
-          Book NOW
+          Go To Payement
           <span></span>
           <span></span>
           <span></span>
