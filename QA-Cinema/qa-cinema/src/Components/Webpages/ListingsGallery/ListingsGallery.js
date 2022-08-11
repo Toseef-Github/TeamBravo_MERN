@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 function ListingsGallery() {
     return (
         <>
-           
+           <h1>Recent Releases:</h1>
             <div class="movie_card" id="minion">
   <div class="info_section">
     <div class="movie_header">
