@@ -132,7 +132,7 @@ function Payment() {
               <input type="checkbox" checked="checked" name="sameadr" />{" "}
               Shipping address same as billing
             </label>
-            <input type="submit" value="Continue to checkout" class="btn" />
+            <input type="submit" value="Continue to checkout" class="btnpayement" />
 
             <div class="col-25">
               <div class="container">
