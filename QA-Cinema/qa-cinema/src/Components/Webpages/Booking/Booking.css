@@ -31,7 +31,12 @@
 }
 
 .Movies {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
+}
+DtPicker{
+  color:white;
+  
+
 }
 
 .Movies select {
@@ -42,7 +47,14 @@
   border-radius: 4px;
   padding: 6px 24px;
 }
-
+.Times select {
+  appearance: none;
+  background: white;
+  font-size: 20px;
+  margin-left: 12px;
+  border-radius: 4px;
+  padding: 6px 24px;
+}
 .ShowCase {
   margin: 0 0 48px;
   padding: 0;
