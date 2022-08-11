@@ -20,7 +20,7 @@ function Home() {
           alt="First slide" data-desktop-image="https://media3.giphy.com/media/IAo3cBSgXHHhb50cVC/giphy.gif?cid=ecf05e47oef04x2xbqiu7wsly8oga944ufnhniiqrcbw1ilv&rid=giphy.gif&ct=g" data-mobile-image="https://media3.giphy.com/media/IAo3cBSgXHHhb50cVC/giphy.gif?cid=ecf05e47oef04x2xbqiu7wsly8oga944ufnhniiqrcbw1ilv&rid=giphy.gif&ct=g" data-mobile-size="1536|864" data-desktop-size="1600|650" width="1600" height="650"
         />
         <Carousel.Caption>
-         <a href="Minions"> Minions: Rise of Gru </a>
+         <a className="carouseltitle" href="Minions"> Minions: Rise of Gru</a>
         </Carousel.Caption>
       </Carousel.Item>
       
@@ -31,7 +31,7 @@ function Home() {
           alt="Second slide" data-desktop-image="https://media4.giphy.com/media/sf3PYOIUwF2tiPaSSI/giphy.gif?cid=ecf05e476i5ttk9qixs4omr7557taviqn30stjcigmghq9nj&rid=giphy.gif&ct=g" data-mobile-image="https://media4.giphy.com/media/sf3PYOIUwF2tiPaSSI/giphy.gif?cid=ecf05e476i5ttk9qixs4omr7557taviqn30stjcigmghq9nj&rid=giphy.gif&ct=g" data-mobile-size="1536|864" data-desktop-size="1600|650" width="1600" height="650"
         />
         <Carousel.Caption>
-          <a href="BulletTrain">Bullet Train</a>
+          <a className="carouseltitle" href="BulletTrain">Bullet Train</a>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -42,7 +42,7 @@ function Home() {
           alt="third slide" data-desktop-image="https://media1.giphy.com/media/pL6mkjytFkTlekNMtM/giphy.gif?cid=ecf05e47c1nj5qlax4tbpq6ewfw5ht15ifgj40qaupbsuilm&rid=giphy.gif&ct=g" data-mobile-image="https://media1.giphy.com/media/pL6mkjytFkTlekNMtM/giphy.gif?cid=ecf05e47c1nj5qlax4tbpq6ewfw5ht15ifgj40qaupbsuilm&rid=giphy.gif&ct=g" data-mobile-size="1536|864" data-desktop-size="1600|6500" width="1600" height="650"
         />
         <Carousel.Caption>
-          <a href="Thor">Thor:Love and Thunder</a>
+          <a className="carouseltitle" href="Thor">Thor:Love and Thunder</a>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -53,7 +53,7 @@ function Home() {
           alt="fourth slide" data-desktop-image="https://media0.giphy.com/media/nWfnOfr7k6QZLv5Z65/giphy.gif?cid=ecf05e4701mc0gbxzbt4wygqyaiph5r0ufrd8m53z4xctyh7&rid=giphy.gif" data-mobile-image="/https://media0.giphy.com/media/nWfnOfr7k6QZLv5Z65/giphy.gif?cid=ecf05e4701mc0gbxzbt4wygqyaiph5r0ufrd8m53z4xctyh7&rid=giphy.gif" data-mobile-size="1536|864" data-desktop-size="1600|650" width="1600" height="650"
         />
         <Carousel.Caption>
-          <a href="Superpets">DC: League of Super-Pets</a>
+          <a className="carouseltitle" href="Superpets">DC: League of Super-Pets</a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
