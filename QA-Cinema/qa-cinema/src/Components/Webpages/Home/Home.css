@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 
 body {
-  
   margin: 0px;
   padding: 0px;
   font-family: "Courier Prime", monospace;
- 
 }
 
 h1 {
@@ -19,15 +17,25 @@ h1 {
   overflow: hidden;
 }
 
+.carousel {
+  left: -9999px; /*important */
+  right: -9999px; /*important */
+  margin: 0 auto; /*important */
+  max-width: 90%; /*important */
+  min-width: 90%;
 
-
-  .carousel{
-    left: -9999px;  /*important */
-    right: -9999px;  /*important */
-    margin: 0 auto;  /*important */
-    max-width: 90%;  /*important */
-    min-width: 90%;
-    
-    position: absolute;
- }
- 
+  position: absolute;
+}
+.carouseltitle {
+  
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
