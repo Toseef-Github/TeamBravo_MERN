@@ -6,9 +6,11 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScroll() {
- async function onSearch() {
+  async function onSearch() {
     console.log("onSearch called!!");
-    const response = await fetch(`https://imdb-api.com/en/API/Title/k_12345678/tt1375666/FullCast,Posters,Images,Trailer,Ratings,`);
+    const response = await fetch(
+      `https://imdb-api.com/en/API/Title/k_12345678/tt1375666/FullCast,Posters,Images,Trailer,Ratings,`
+    );
     console.log("response: ", response);
   }
 
@@ -17,7 +19,7 @@ function NavScroll() {
       <Container fluid>
         <Navbar.Brand href="./Home">
           <img
-            src="./QA Cinemas-logos.png"
+            src={require("./QA Cinemas-logos.png")}
             width="30"
             height="30"
             className="d-inline-block align-top"
