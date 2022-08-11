@@ -18,37 +18,16 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
 }
-@keyframes cursor{
-   
-  0%, 100%{border-color: transparent;}
-  50%{border-color: #fff;}
-}
 
-@keyframes typing{
-  
-  0%{ width: 0ch} /*Text is hidden*/
-  30%{ width: 20ch;} /*The enitre header will be typed out*/
-  80%{ width: 20ch;} /*Text stays visible*/
-  90%{ width: 0ch;} /*Text is deleted*/
-  100%{ width: 0ch;} /*Text stays hidden*/
-}
+
+
   .carousel{
     left: -9999px;  /*important */
     right: -9999px;  /*important */
     margin: 0 auto;  /*important */
-    max-width: 80%;  /*important */
-    min-width: 80%;
+    max-width: 90%;  /*important */
+    min-width: 90%;
     
     position: absolute;
  }
- /* #h5 {
-    font-family: Machine,Helvetica,Arial,sans-serif;
-    color:aliceblue;
-    font-size: 54px;
-    letter-spacing: 0;
-    line-height: 46px;
-    font-weight: 400;
-    width: 60%;
-    margin-bottom: 40px;
-    cursor: default;
- } */
+ 
