@@ -71,7 +71,7 @@ function BulletTrain() {
                     id="film-dist-partners"
                     class="film-details scrollFadeIn in"
                   >
-                    <h4>Distribution Partners</h4>
+                    <h4>Trailer</h4>
                     <div class="video-container">
                       <iframe
                         width="560"
@@ -90,7 +90,7 @@ function BulletTrain() {
               <Col xs={6} md={4}>
                 <div class="row1">
                   <section id="film-synopsis" class="film-details fadeIn in">
-                    <h4>Synopsis</h4>
+                    <h4>Poster</h4>
                     <br />
                     <img
                       class="carousel__bulletTrain-image"
