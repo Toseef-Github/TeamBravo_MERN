@@ -10,6 +10,8 @@
 // import Button from 'react-bootstrap/Button' (example of importing - a button in this case)
 //import 'bootstrap/dist/css/bootstrap.min.css'
 //yarn start to start the application
+// npm i clsx 
+// npm i react-datetime-picker
 
 # Getting Started with Create React App
 
