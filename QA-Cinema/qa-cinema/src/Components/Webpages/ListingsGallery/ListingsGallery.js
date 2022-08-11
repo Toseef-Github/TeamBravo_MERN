@@ -6,120 +6,113 @@ import Col from 'react-bootstrap/Col';
 function ListingsGallery() {
     return (
         <>
-            <body>
-            <h1 id="ListingsGalleryh1">Listings Gallery</h1>
-            <Container>
-      <Row>
-        <Col sm={8}>
-        <h2 id="ListingsGalleryh2"><a href="./Minions">Minions: Rise of Gru</a></h2>
-        <br />
-        <p id="ListingsGalleryp">Description: </p>
-        <br />
-        <p  id="ListingsGalleryp">This summer, from the biggest global animated franchise in history, comes the origin story of how the world's greatest supervillain first met his iconic Minions.</p>
-        <br />
-        <p id="ListingsGalleryp">Actors:</p>
-        <br />
-        <p id="ListingsGalleryp">Steve Carell, Michelle Yeoh, Pierre Coffin, Taraji P. Henson, Julie Andrews, Russell Brand, Danny Trejo</p>
-        <br />
-        <p id="ListingsGalleryp">Classification:</p>
-        <br />
-        <p id="ListingsGalleryp">U</p>
-        </Col>
-        <Col sm={4}>
-            <img src="https://images.mymovies.net/images/film/cin/350x522/fid20178.jpg" alt="minions poster" />
-        </Col>
-      </Row>
-      <Row>
-        <Col sm></Col>
-        <Col sm></Col>
-        <Col sm></Col>
-      </Row>
-    </Container>
-    <br />
-    <Container>
-      <Row>
-        <Col sm={8}>
-        <h2 id="ListingsGalleryh2"><a href="./BulletTrain">Bullet Train</a></h2>
-        <br />
-        <p id="ListingsGalleryp">Description: </p>
-        <br />
-        <p  id="ListingsGalleryp">In Bullet Train, Brad Pitt stars as Ladybug, an unlucky assassin determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans.</p>
-        <br />
-        <p id="ListingsGalleryp">Actors:</p>
-        <br />
-        <p id="ListingsGalleryp">Brad Pitt, Joey King, Aaron Taylor-Johnson, Brian Tyree Henry, Bad Bunny</p>
-        <br />
-        <p id="ListingsGalleryp">Classification:</p>
-        <br />
-        <p id="ListingsGalleryp">15</p>
-        </Col>
-        <Col sm={4}>
-            <img src="https://images.mymovies.net/images/film/cin/350x522/fid21493.jpg" alt="bullet train poster"/>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm></Col>
-        <Col sm></Col>
-        <Col sm></Col>
-      </Row>
-    </Container>
-    <br />
-    <Container>
-      <Row>
-        <Col sm={8}>
-        <h2 id="ListingsGalleryh2"><a href="./Thor">Thor: Love and Thunder</a></h2>
-        <br />
-        <p id="ListingsGalleryp">Description: </p>
-        <br />
-        <p  id="ListingsGalleryp">Thor embarks on a journey unlike anything he's ever faced -- a quest for inner peace. However, his retirement gets interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods.</p>
-        <br />
-        <p id="ListingsGalleryp">Actors:</p>
-        <br />
-        <p id="ListingsGalleryp">Chris Hemsworth, Natalie Portman, Tessa Thompson</p>
-        <br />
-        <p id="ListingsGalleryp">Classification:</p>
-        <br />
-        <p id="ListingsGalleryp">12A</p>
-        </Col>
-        <Col sm={4}>
-            <img src="https://images.mymovies.net/images/film/cin/350x522/fid21005.jpg" alt="thor poster"/>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm></Col>
-        <Col sm></Col>
-        <Col sm></Col>
-      </Row>
-    </Container>
-    <br />
-    <Container>
-      <Row>
-        <Col sm={8}>
-            <h2 id="ListingsGalleryh2"><a href="./Superpets">DC: League of Super-pets</a></h2>
-        <br />
-        <p id="ListingsGalleryp">Description: </p>
-        <br />
-        <p  id="ListingsGalleryp">When Superman and the Justice League are kidnapped, Krypto must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes.</p>
-        <br />
-        <p id="ListingsGalleryp">Actors:</p>
-        <br />
-        <p id="ListingsGalleryp">Dwayne Johnson, Kevin Hart, Kate McKinnon</p>
-        <br />
-        <p id="ListingsGalleryp">Classification:</p>
-        <br />
-        <p id="ListingsGalleryp">PG</p>
-        </Col>
-        <Col sm={4}>
-            <img src="https://images.mymovies.net/images/film/cin/350x522/fid21007.jpg" alt="superpets poster"/>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm></Col>
-        <Col sm></Col>
-        <Col sm></Col>
-      </Row>
-    </Container>
-            </body>
+           
+            <div class="movie_card" id="minion">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://m.media-amazon.com/images/I/71NoVb6lTgL._SY679_.jpg" alt= "minion listing"/>
+      <h2>Minions: The Rise of Gru</h2>
+      <h4>2022, Kyle Balda</h4>
+      <span class="minutes">87 min</span>
+      <p class="type">Animation, Adventure, Fantasy</p>
+      <br/>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+      <br/>
+      The untold story of one twelve-year-old's dream to become the world's greatest supervillain.
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+        <li><a class="material-icons" href= "Booking">Book Now</a></li>
+        <li><a class="material-icons" href= "Minions">More Info</a></li>
+        <li><a class="material-icons" href = "ContactUs">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back minion_back"></div>
+</div>
+
+<div class="movie_card" id="bullettrain">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://m.media-amazon.com/images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt = "bullettrain listing"/>
+      <h2>Bullet Train</h2>
+      <h4>2022, David Leitch</h4>
+      <span class="minutes">127 min</span>
+      <p class="type">Action, Comedy</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+      Five assassins aboard a fast moving bullet train find out their missions have something in common.
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+      <ul>
+        <li><a class="material-icons" href= "Booking">Book Now</a></li>
+        <li><a class="material-icons" href= "BulletTrain">More Info</a></li>
+        <li><a class="material-icons" href = "ContactUs">Contact us</a></li>
+      </ul>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back bullettrain_back"></div>
+</div>
+
+<div class="movie_card" id="thor">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt = "thor listing"/>
+      <h2>Thor: Love and Thunder</h2>
+      <h4>2022, Taika Waititi</h4>
+      <span class="minutes">118 min</span>
+      <p class="type">Action, Adventure</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+      Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+      <ul>
+        <li><a class="material-icons" href= "Booking">Book Now</a></li>
+        <li><a class="material-icons" href= "Thor">More Info</a></li>
+        <li><a class="material-icons" href = "ContactUs">Contact us</a></li>
+      </ul>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back thor_back"></div>
+</div>
+
+<div class="movie_card" id="Superpets">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://m.media-amazon.com/images/M/MV5BYWI2NDg5M2MtMGMwYS00NzU1LWI1YzktYTg0ZDEwMjY4YmUwXkEyXkFqcGdeQXVyMTMzODk3NDU0._V1_.jpg" alt="DC: League of Super-Pets listing" />
+      <h2>DC League of Super-Pets</h2>
+      <h4>2022, Jared Stern</h4>
+      <span class="minutes">105 min</span>
+      <p class="type">Animation, Action, Adventure</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+      Krypto the Super-Dog and Superman are inseparable best friends, sharing the same superpowers and fighting crime side by side in Metropolis. However, Krypto must master his own powers for a rescue mission when Superman is kidnapped.
+      </p>
+    </div>
+    <div class="movie_social">
+    <ul>
+        <li><a class="material-icons" href= "Booking">Book Now</a></li>
+        <li><a class="material-icons" href= "Superpets">More Info</a></li>
+        <li><a class="material-icons" href = "ContactUs">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back Superpets_back"></div>
+</div>
+          
         </>
     );
 }
