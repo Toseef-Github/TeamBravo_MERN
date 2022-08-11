@@ -4,6 +4,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  
 }
 
 .bookings{
@@ -15,7 +16,7 @@
   display: grid;
   place-items: center;
   font-size: 24px;
-  background-color:rgba(72,72,72,0.4);
+  
  
   
  
@@ -26,18 +27,15 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
+  background:rgba(244, 213, 156, 0.717);
  
 }
 
 .Movies {
   margin-bottom: 24px;
 }
-DtPicker{
-  color:white;
-  
 
-}
 
 .Movies select {
   appearance: none;
@@ -119,7 +117,7 @@ DtPicker{
   height: 12px;
   border-radius: 100%;
   background: transparent;
-  border: 1px solid #7bc47f;
+  border: 1px solid #4e9552;
   animation: show-off 0.8s;
   visibility: hidden;
 }
@@ -164,9 +162,9 @@ DtPicker{
 }
 
 .info .count {
-  color: #7bc47f;
+  color: #4e9552;
 }
 
 .info .total {
-  color: #7bc47f;
+  color: #4e9552;
 }
