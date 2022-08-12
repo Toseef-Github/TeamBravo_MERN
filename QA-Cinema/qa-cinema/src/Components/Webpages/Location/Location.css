@@ -1,0 +1,18 @@
+#Locationh1 {
+    text-align: center;
+    color: white;
+}
+
+#Locationh2 {
+    color: wheat;
+}
+
+#Locationp {
+    color: wheat;
+}
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
