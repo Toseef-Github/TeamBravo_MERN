@@ -1,21 +1,21 @@
 #footerdiv {
-    border: 5px solid navy(50 44% 45%);
-    display: flex;
-    justify-content: center;
-    background-color: #212529;
-    margin-top: 5%;
-    text-align: center;
+  border: 5px solid navy(50 44% 45%);
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
+  margin-top: 250px;
+  text-align: center;
 }
 
 #footertable {
-    border-collapse: collapse;
-    margin: 5%;
-    align-content: center;
-    font-size: large;
-    min-width: 600px;
-    color: wheat;
+  border-collapse: collapse;
+  margin: 5%;
+  align-content: center;
+  font-size: large;
+  min-width: 600px;
+  color: wheat;
 }
 
 td {
-text-align: center;
+  text-align: center;
 }
