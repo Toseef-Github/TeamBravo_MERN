@@ -1,6 +1,71 @@
-#welcomeTitle {
-    text-align: center;
-    color: wheat;
-    position:relative;
-    top:-5px;
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier Prime", monospace;
+}
+.nine h1 {
+  padding: .25em 0 .325em;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-decoration-style: solid;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+.nine h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgb(243, 212, 181);
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.nine h1 span:after,
+.nine h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 5px;
+  background-color: #f8f8f8;
+}
+
+
+
+.carousel {
+  left: -9999px; /*important */
+  right: -9999px; /*important */
+  margin: 0 auto; /*important */
+  max-width: 95%; /*important */
+  min-width: 95%;
+ 
+  position: absolute;
+}
+
+.carouseltitle {
+
+  color: aqua;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Trocchi", serif;
+  font-size: 55px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
