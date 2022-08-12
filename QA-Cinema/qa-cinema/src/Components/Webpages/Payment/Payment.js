@@ -131,7 +131,7 @@ function Payment() {
                   </span>
                 </h4>
                 <p>
-                  <h7>Bulltet Train: 3 tickets </h7><span class="price">£30</span>
+                  <h7>Bullet Train: 3 tickets </h7><span class="price">£30</span>
                 </p>
                                 
                 <hr />
