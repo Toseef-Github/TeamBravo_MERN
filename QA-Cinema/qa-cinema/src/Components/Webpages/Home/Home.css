@@ -5,34 +5,64 @@ body {
   padding: 0px;
   font-family: "Courier Prime", monospace;
 }
-
-h1 {
+.nine h1 {
+  padding: .25em 0 .325em;
   text-align: center;
-  font-size: 80px;
-  font-weight: 500;
-  color: #fff;
-  border-right: 4px solid #fff;
-  animation: cursor 1s infinite step-end, typing 20s infinite steps(20);
-  white-space: nowrap;
-  overflow: hidden;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-decoration-style: solid;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
 }
+.nine h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgb(243, 212, 181);
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.nine h1 span:after,
+.nine h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 5px;
+  background-color: #f8f8f8;
+}
+
+
 
 .carousel {
   left: -9999px; /*important */
   right: -9999px; /*important */
   margin: 0 auto; /*important */
-  max-width: 90%; /*important */
-  min-width: 90%;
-
+  max-width: 95%; /*important */
+  min-width: 95%;
+ 
   position: absolute;
 }
+
 .carouseltitle {
-  
-  font-family: helvetica;
+
+  color: aqua;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Trocchi", serif;
-  font-size: 45px;
+  font-size: 55px;
   font-weight: normal;
   line-height: 48px;
   margin: 0;
