@@ -4,7 +4,7 @@ function Payment() {
   return (
     <div class="row">
       <div class="col-75">
-        <div class="container">
+<div class="payemnetcontainer" >
           <form action="/action_page.php">
             <div class="row">
               <div class="col-50">
@@ -15,8 +15,8 @@ function Payment() {
                 <input
                   type="text"
                   id="fname"
-                  name="firstname"
-                  placeholder="John M. Doe"
+                  name="firstname"nnnn
+                  placeholder="Forename Surname"
                 />
                 <label for="email">
                   <i class="fa fa-envelope"></i> Email
@@ -34,7 +34,7 @@ function Payment() {
                   type="text"
                   id="adr"
                   name="address"
-                  placeholder="542 W. 15th Street"
+                  placeholder="195 Ber Street"
                 />
                 <label for="city">
                   <i class="fa fa-institution"></i> City
@@ -43,25 +43,25 @@ function Payment() {
                   type="text"
                   id="city"
                   name="city"
-                  placeholder="New York"
+                  placeholder="London"
                 />
                 <div class="row">
                   <div class="col-50">
-                    <label for="state">State</label>
+                    <label for="state">County</label>
                     <input
                       type="text"
                       id="state"
                       name="state"
-                      placeholder="NY"
+                      placeholder="Dagenham"
                     />
                   </div>
                   <div class="col-50">
-                    <label for="zip">Zip</label>
+                    <label for="zip">Post code</label>
                     <input
                       type="text"
                       id="zip"
                       name="zip"
-                      placeholder="10001"
+                      
                     />
                   </div>
                 </div>
@@ -112,19 +112,6 @@ function Payment() {
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-50">
-                    <label for="expyear">Exp Year</label>
-                    <input
-                      type="text"
-                      id="expyear"
-                      name="expyear"
-                      placeholder="2018"
-                    />
-                  </div>
-                  <div class="col-50">
-                    <label for="cvv">CVV</label>
-                    <input type="text" id="cvv" name="cvv" placeholder="352" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -132,10 +119,10 @@ function Payment() {
               <input type="checkbox" checked="checked" name="sameadr" />{" "}
               Shipping address same as billing
             </label>
-            <input type="submit" value="Continue to checkout" class="btnpayement" />
+            <input type="submit" value="Complete Payement" class="btnpayement" />
 
             <div class="col-25">
-              <div class="container">
+              <div class="payemnetcontainer">
                 <h4>
                   Cart
                   <span class="price" style={{ color: "black" }}>
@@ -144,22 +131,14 @@ function Payment() {
                   </span>
                 </h4>
                 <p>
-                  <a href="#">Product 1</a> <span class="price">$15</span>
+                  <h7>Bulltet Train: 3 tickets </h7><span class="price">£30</span>
                 </p>
-                <p>
-                  <a href="#">Product 2</a> <span class="price">$5</span>
-                </p>
-                <p>
-                  <a href="#">Product 3</a> <span class="price">$8</span>
-                </p>
-                <p>
-                  <a href="#">Product 4</a> <span class="price">$2</span>
-                </p>
+                                
                 <hr />
                 <p>
                   Total{" "}
-                  <span class="price" style={{ color: "black" }}>
-                    <b>$30</b>
+                  <span class="price" style={{ color: "white" }}>
+                    <b>£30</b>
                   </span>
                 </p>
               </div>
